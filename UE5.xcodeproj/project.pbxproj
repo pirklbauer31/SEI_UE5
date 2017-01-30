@@ -14,9 +14,9 @@
 		3F25546B1E3F3FB4007F1236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2554691E3F3FB4007F1236 /* LaunchScreen.storyboard */; };
 		3F2554761E3F3FB4007F1236 /* UE5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2554751E3F3FB4007F1236 /* UE5Tests.swift */; };
 		3F2554811E3F3FB4007F1236 /* UE5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2554801E3F3FB4007F1236 /* UE5UITests.swift */; };
-		3F813A821E3F518400FEF6D9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F813A811E3F518400FEF6D9 /* SwiftyJSON.swift */; };
 		3F813AAD1E3F545200FEF6D9 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F813AAC1E3F545200FEF6D9 /* CharacterTableViewController.swift */; };
 		3F813AAF1E3F55F100FEF6D9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F813AAE1E3F55F100FEF6D9 /* Character.swift */; };
+		93835600419D0F1555278B4B /* Pods_UE5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688A52B64B4387EA29E39973 /* Pods_UE5.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CA774D38E00E9D12E13A64D /* Pods-UE5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UE5.release.xcconfig"; path = "Pods/Target Support Files/Pods-UE5/Pods-UE5.release.xcconfig"; sourceTree = "<group>"; };
 		3F25545D1E3F3FB4007F1236 /* UE5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UE5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2554601E3F3FB4007F1236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F2554621E3F3FB4007F1236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,9 +51,12 @@
 		3F25547C1E3F3FB4007F1236 /* UE5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UE5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2554801E3F3FB4007F1236 /* UE5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UE5UITests.swift; sourceTree = "<group>"; };
 		3F2554821E3F3FB4007F1236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F813A811E3F518400FEF6D9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = SOURCE_ROOT; };
 		3F813AAC1E3F545200FEF6D9 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CharacterTableViewController.swift; path = ../CharacterTableViewController.swift; sourceTree = "<group>"; };
 		3F813AAE1E3F55F100FEF6D9 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		60AABE78A80B55248A9C7D01 /* Pods_UE5Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UE5Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688A52B64B4387EA29E39973 /* Pods_UE5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UE5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E4667504300ED88F3B7B6C /* Pods-UE5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UE5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UE5/Pods-UE5.debug.xcconfig"; sourceTree = "<group>"; };
+		AB59A6D45E1B8BDCEF595823 /* Pods_UE5UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UE5UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93835600419D0F1555278B4B /* Pods_UE5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,8 @@
 				3F2554741E3F3FB4007F1236 /* UE5Tests */,
 				3F25547F1E3F3FB4007F1236 /* UE5UITests */,
 				3F25545E1E3F3FB4007F1236 /* Products */,
+				6CA9FF4DFF47CA720ADFF68C /* Pods */,
+				5641534F6632E0B9CA52B9F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				3F813AAC1E3F545200FEF6D9 /* CharacterTableViewController.swift */,
-				3F813A811E3F518400FEF6D9 /* SwiftyJSON.swift */,
 				3F2554601E3F3FB4007F1236 /* AppDelegate.swift */,
 				3F2554641E3F3FB4007F1236 /* Main.storyboard */,
 				3F2554621E3F3FB4007F1236 /* ViewController.swift */,
@@ -134,6 +140,25 @@
 			path = UE5UITests;
 			sourceTree = "<group>";
 		};
+		5641534F6632E0B9CA52B9F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				688A52B64B4387EA29E39973 /* Pods_UE5.framework */,
+				60AABE78A80B55248A9C7D01 /* Pods_UE5Tests.framework */,
+				AB59A6D45E1B8BDCEF595823 /* Pods_UE5UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CA9FF4DFF47CA720ADFF68C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2E4667504300ED88F3B7B6C /* Pods-UE5.debug.xcconfig */,
+				1CA774D38E00E9D12E13A64D /* Pods-UE5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F2554851E3F3FB4007F1236 /* Build configuration list for PBXNativeTarget "UE5" */;
 			buildPhases = (
+				275446AD8897326FEF9879F5 /* [CP] Check Pods Manifest.lock */,
 				3F2554591E3F3FB4007F1236 /* Sources */,
 				3F25545A1E3F3FB4007F1236 /* Frameworks */,
 				3F25545B1E3F3FB4007F1236 /* Resources */,
+				97B541B25DBEE7A2BC081A70 /* [CP] Embed Pods Frameworks */,
+				33B5B1696C5FB8A522E0608D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,12 +291,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		275446AD8897326FEF9879F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33B5B1696C5FB8A522E0608D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UE5/Pods-UE5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B541B25DBEE7A2BC081A70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UE5/Pods-UE5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F2554591E3F3FB4007F1236 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F813A821E3F518400FEF6D9 /* SwiftyJSON.swift in Sources */,
 				3F813AAD1E3F545200FEF6D9 /* CharacterTableViewController.swift in Sources */,
 				3F813AAF1E3F55F100FEF6D9 /* Character.swift in Sources */,
 				3F2554631E3F3FB4007F1236 /* ViewController.swift in Sources */,
@@ -422,6 +497,7 @@
 		};
 		3F2554861E3F3FB4007F1236 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E4667504300ED88F3B7B6C /* Pods-UE5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UE5/Info.plist;
@@ -434,6 +510,7 @@
 		};
 		3F2554871E3F3FB4007F1236 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA774D38E00E9D12E13A64D /* Pods-UE5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UE5/Info.plist;
