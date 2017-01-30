@@ -16,6 +16,6 @@ class Character{
     var skinColor: String?
     var gender: String?
     
-    
+    //lol
 }
 
